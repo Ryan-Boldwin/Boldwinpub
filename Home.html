@@ -5,13 +5,56 @@
 <title> Welcome to the Boldwin Pub! </title>
 </head>
 <style>
+  .box{
+    margin: auto;
+      style: fixed;
+    width: 80%;
+    height: 150px;
+  }
+    
+    #banner{
+      height: 100%;
+      width: 100%;
+  }
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+
 </style>
 
 <body>
 
   <div class = box>
-    <img src = "
+    <img id = banner src = "Pub_logo.png">
+  </div>
 
+  <ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+  
+  
 <h1> Welcome to the Boldwin Pub!<h1>
 
 </body>
